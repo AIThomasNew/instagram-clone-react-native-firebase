@@ -6,22 +6,40 @@ const Header = () => {
     <View style={styles.container}>
       <TouchableOpacity>
         <View>
-          <Image style={styles.logo} source={require('../../assets/header-logo.png')} />
+          <Image
+            style={styles.logo}
+            source={require('../../assets/header-logo.png')}
+          />
         </View>
       </TouchableOpacity>
 
       <View style={styles.iconsContainer}>
         <TouchableOpacity>
-          <Image source={{ uri: 'https://img.icons8.com/fluency-systems-regular/60/ffffff/plus-2-math.png' }} style={styles.icon} />
+          <Image
+            source={{
+              uri: 'https://img.icons8.com/fluency-systems-regular/60/ffffff/plus-2-math.png',
+            }}
+            style={styles.icon}
+          />
         </TouchableOpacity>
         <TouchableOpacity>
-          <Image source={{ uri: 'https://img.icons8.com/fluency-systems-regular/60/ffffff/like--v1.png.png' }} style={styles.icon} />
+          <Image
+            source={{
+              uri: 'https://img.icons8.com/fluency-systems-regular/60/ffffff/like--v1.png.png',
+            }}
+            style={styles.icon}
+          />
         </TouchableOpacity>
         <TouchableOpacity>
           <View style={styles.unreadBadge}>
             <Text style={styles.unreadBadgeText}>11</Text>
           </View>
-          <Image source={{ uri: 'https://img.icons8.com/fluency-systems-regular/60/ffffff/facebook-messenger.png' }} style={styles.icon} />
+          <Image
+            source={{
+              uri: 'https://img.icons8.com/fluency-systems-regular/60/ffffff/facebook-messenger.png',
+            }}
+            style={styles.icon}
+          />
         </TouchableOpacity>
       </View>
     </View>

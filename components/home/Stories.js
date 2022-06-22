@@ -10,7 +10,9 @@ const Stories = () => {
           <View key={index} style={{ alignItems: 'center' }}>
             <Image source={{ uri: story.image }} style={styles.story} />
             <Text style={{ color: 'white' }}>
-              {story.user.length > 11 ? story.user.slice(0, 10).toLowerCase() + '...' : story.user.toLowerCase()}
+              {story.user.length > 11
+                ? story.user.slice(0, 10).toLowerCase() + '...'
+                : story.user.toLowerCase()}
             </Text>
           </View>
         ))}

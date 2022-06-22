@@ -1,7 +1,8 @@
 import { USERS } from './users'
 export const POSTS = [
   {
-    imageUrl: 'https://i.ibb.co/182bP1y/4k.png',
+    imageUrl:
+      'https://n1s1.starhit.ru/b7/1f/17/b71f1782b68024023e6ffbecbb9c3e93/368x460_0_af73000fee063afed9e94cd5ea95fa11@1080x1350_0xac120003_427074741649170393.jpg',
     user: USERS[0].user,
     likes: 7870,
     caption: 'Train Ride to Hogwarts.',
@@ -9,16 +10,17 @@ export const POSTS = [
     comments: [
       {
         user: 'Snoop Dog',
-        comments: 'Wow! Hello People!',
+        comments: 'WTF??',
       },
       {
         user: 'Slim Shady',
-        comments: 'Hello Doggy!',
+        comments: 'OMG',
       },
     ],
   },
   {
-    imageUrl: 'https://i.ibb.co/182bP1y/4k.png',
+    imageUrl:
+      'https://n1s1.starhit.ru/b7/1f/17/b71f1782b68024023e6ffbecbb9c3e93/368x460_0_af73000fee063afed9e94cd5ea95fa11@1080x1350_0xac120003_427074741649170393.jpg',
     user: USERS[1].user,
     likes: 7870,
     caption: 'Train Ride to Hogwarts.',
@@ -26,11 +28,11 @@ export const POSTS = [
     comments: [
       {
         user: 'Snoop Dog',
-        comments: 'Wow! Hello People!',
+        comments: 'WTF??',
       },
       {
         user: 'Slim Shady',
-        comments: 'Hello Doggy!',
+        comments: 'OMG',
       },
     ],
   },
